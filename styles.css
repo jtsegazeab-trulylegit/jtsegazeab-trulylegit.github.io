@@ -33,6 +33,7 @@ header {
 }
 .product:hover {
     transform: translateY(-10px);
+    cursor: pointer;
 }
 .product h3 {
     font-size: 1.2em;
