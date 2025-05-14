@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css"> 
     
 
-    <!-- Badge Installation -->
+    <!-- Badge Installation QA
 
     <script>
         (function () {
@@ -19,7 +19,21 @@
             var entry = document.getElementsByTagName('script')[0];
             entry.parentNode.insertBefore(script, entry);
         })();
+    </script> -->
+
+    <!-- Dev Badge Installation -->
+    <script>
+        (function () {
+            var script = document.createElement('script');
+    
+            script.src = 'https://tmmdkra163.execute-api.us-east-2.amazonaws.com/test/api/tlv1?siteId=8bfe07ac-0391-49f1-bcfc-a05b9dfd045a';
+            script.async = true;
+    
+            var entry = document.getElementsByTagName('script')[0];
+            entry.parentNode.insertBefore(script, entry);
+        })();
     </script>
+    
     
 </head>
 <body>
